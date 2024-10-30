@@ -20,7 +20,7 @@ public class Exercicio1 {
 		
 		System.out.println("Seu novo salario é de R$ "+ salarion);
 		
-		
+		ler.close();
 
 	}
 

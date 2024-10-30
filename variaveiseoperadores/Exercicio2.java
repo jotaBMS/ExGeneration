@@ -1,3 +1,8 @@
+/*  Elabore um algoritmo em Java que leia 4 notas de um participante, 
+em variáveis do tipo float e exiba na tela a média final do participante */
+
+
+
 package variaveiseoperadores;
 
 import java.util.Scanner;
@@ -25,6 +30,8 @@ public class Exercicio2 {
 		media = (n1 + n2 + n3 + n4) / 4;
 		
 		System.out.printf("Sua média final é de %.2f:", media);
+
+		ler.close();
 
 	}
 

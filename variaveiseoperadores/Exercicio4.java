@@ -1,3 +1,7 @@
+/* Leia quatro valores float (n1, n2, n3, n4). A seguir, 
+calcule e mostre a diferença do produto entre o n1 e n2 
+pelo produto entre o n3 e o n4. */
+
 package variaveiseoperadores;
 
 import java.util.Scanner;
@@ -27,7 +31,7 @@ public class Exercicio4 {
 		System.out.println("A diferença dos produtos é de "+ dif);
 		
 		
-		
+		ler.close();
 
 	}
 
