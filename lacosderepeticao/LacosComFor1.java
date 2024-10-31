@@ -22,12 +22,11 @@ public class LacosComFor1 {
 		n2 = scanner.nextInt();
 		
 		if (n1 < n2) {
-			
+			System.out.println("No Intervalo entre "+ n1 +" e " + n2);
 			for(i=n1; i<=n2; i++ ) {
 				if((i%3 == 0) && (i%5 == 0) && (i != 0 )) {
 				System.out.println(i +" é múltiplo de 3 e 5.");
-				// falta colocar o "No Intervalo entre n1 e n2" enicma desse print de cima
-			   //mas fazneod ovm oque ele aparecã só uma vez 
+				 
 				}
 				
 			}
@@ -41,8 +40,3 @@ public class LacosComFor1 {
 		
 				
 	}
-		
-		
-		
-
-

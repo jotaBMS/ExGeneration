@@ -2,7 +2,7 @@ package lacosderepeticao;
 
 import java.util.Scanner;
 
-public class LacoComWhile1 {
+public class LacosComWhile1 {
 	
 	public static void main(String[] args) {
 		
