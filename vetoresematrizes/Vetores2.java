@@ -15,7 +15,7 @@ public class Vetores2 {
 		float media = 0;
 
 		for (int i = 0; i < vetorNumeros.length; i++) {
-			// inserindo os numeros no vetor
+			// inserindo os numeros no vetor (1 a 10)
 			System.out.println("Digite o " + (i + 1) + "º numero: ");
 			vetorNumeros[i] = scanner.nextInt();
 			soma = vetorNumeros[i] + soma;
@@ -37,7 +37,7 @@ public class Vetores2 {
 		System.out.println("\n\nElementos nos índices ímpares: " + vetorNumeros[1] + " , " + vetorNumeros[3] + " , "+ vetorNumeros[5] + " , " + vetorNumeros[7] + " , " + vetorNumeros[9]);
 		
 		System.out.println("a soma dos elementos é igual a: " + soma);
-		//na média não esta puxando o numero depois da virgula, era pra dar "5,5" e ta dando "5"
+		//na média não esta puxando o numero depois da virgula, era pra dar "5,5" e ta dando "5" 
 		System.out.printf("a soma dos elementos é igual a: %.2f", media);
 		
 		//ta dando erro na hora de colocar os numeros no vetor de numeros pares!!!!
