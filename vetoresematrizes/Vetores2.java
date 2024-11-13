@@ -9,8 +9,6 @@ public class Vetores2 {
 		Scanner scanner = new Scanner(System.in);
 
 		int vetorNumeros[] = new int[10];
-		int vetorPares[] = new int[5];
-		// int vetorImpares[] = new int[5];
 		int n1;
 		float media = 0, soma = 0;
 
@@ -40,8 +38,7 @@ public class Vetores2 {
 		System.out.println("\n\nElementos nos índices ímpares: " + vetorNumeros[1] + " , " + vetorNumeros[3] + " , "+ vetorNumeros[5] + " , " + vetorNumeros[7] + " , " + vetorNumeros[9]);
 
 		System.out.println("a soma dos elementos é igual a: " + soma);
-		// na média não esta puxando o numero depois da virgula, era pra dar "5,5" e ta
-		// dando "5"
+		
 		System.out.printf("a média dos elementos é igual a: %.2f", media);
 
 
